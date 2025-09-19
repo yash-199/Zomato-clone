@@ -10,7 +10,7 @@ import Location from "../assets/Location.avif"
 import parcel from "../assets/parcel.avif"
 const SecondSection = () => {
     return (
-        <div className='overflow-hidden'>
+        <div className='overflow-hidden mb-32 pt-10'>
             <div className='relative mx-auto flex h-[28em] w-full max-w-[1880px] items-center justify-center rounded-t-3xl bg-white md:h-[40em] overflow-visible'>
                 <div className='absolute right-0 top-[-20%] h-auto w-[70%] translate-x-[65%]'>
                     <img loading='lazy' src={SecondSectionBanner} alt="" />
